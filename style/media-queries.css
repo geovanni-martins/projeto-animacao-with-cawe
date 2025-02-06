@@ -1,0 +1,16 @@
+@charset 'UTF-8';
+
+/* Todas demais mídias */
+
+/* Typical Device Breakpoints
+
+        ~ Fonte: W3C 2025 ~
+
+Telas Pequenas : max 600px
+Celular: min 600px - max 768px
+Telas Médias (ex: tablets): min 768px - max 992px
+PC, Telas Grandes: min 992px - max 1200px 
+Telas Bem Grandes: min 1200px
+
+como o negócio é mobile first, ignoro as telas menores na seleção
+*/
