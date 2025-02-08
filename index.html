@@ -4,16 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Animação</title>
+
+    <link rel="stylesheet" href="/style/style.css" media="all">
+    <link rel="stylesheet" href="style/media-queries.css">
 </head>
 <body>
+    <header>
+        <img src="/src/img/logo.png" alt="">
+        <h1>Nitro Code</h1>
+    </header>
     <main>
         <section>
-            <h1>NOVO FLUXO DE DESENVOLVIMENTO</h1>
+            <h2>NOVO FLUXO DE <span id="cor-unica">DESENVOLVIMENTO</span></h2>
             <p>Uma proposta para otimizar nosso processo de desenvolvimento, desde o levantamento de requisitos até a entrega final.</p>
 
-            <a href="#">Explorar fluxo</a>
+            <a href="#" class="botao">Explorar fluxo</a>
 
-            <div>
+            <div id="lista">
                 <ol>
                     <li>Levantamento de Requisitos</li>
                     <li>Refinamento Técnico</li>
@@ -24,6 +31,18 @@
                     <li>Deploy</li>
                 </ol>
             </div>
+        </section>
+
+        <section id="sessao-video">
+            <div id="regular-video">
+                <iframe width="90%" height="240" src="https://www.youtube.com/embed/C-AA7wX-Lqc?si=Edv06CbTLRZWkCKP"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </section>
+        <section id="sessao-textual">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio eius commodi fuga! Unde commodi quaerat laborum cupiditate, placeat vero. Optio ducimus facere, repellendus delectus quod nulla hic aliquid excepturi sit?</p>
         </section>
     </main>
 </body>
