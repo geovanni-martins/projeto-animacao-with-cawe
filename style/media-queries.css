@@ -66,12 +66,6 @@ como o negócio é mobile first, ignoro as telas menores na seleção
                 font-weight: 900;
         }
 
-        section#inicial {
-                display: flex;
-                height: 400px;
-                flex-flow: row wrap;
-        }
-
         div#texto-and-botao {
                 width: 800px;
 

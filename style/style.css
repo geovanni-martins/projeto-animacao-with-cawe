@@ -43,7 +43,11 @@ main {
 }
 
 section#inicial {
-    height: 500px;
+    height: 400px;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
 }
 
 h2 {
@@ -82,7 +86,7 @@ a.botao {
 
 div#lista {
     display: block;
-    margin: 20px auto;
+    margin: auto;
     padding: 15px 40px;
 
     width: 80%;
