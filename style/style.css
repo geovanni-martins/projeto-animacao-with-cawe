@@ -2,6 +2,24 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
+@keyframes background-btn {
+    0% {
+        background-color: #483fff;
+    }
+    100% {
+        background-color: #0d00ff;
+    }
+}
+
+@keyframes opacity {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
 * {
     box-sizing: border-box;
 
@@ -51,6 +69,8 @@ section#inicial {
     flex-flow: row wrap;
     justify-content: space-evenly;
     align-items: center;
+
+    animation: opacity 2s linear 0.3s 1 normal forwards;
 }
 
 h2 {
@@ -87,6 +107,10 @@ a.botao {
     border-radius: 8px;
 }
 
+a.botao:hover {
+    animation: background-btn 2s ease-out 0.3s 1 normal forwards;
+}
+
 div#lista {
     display: block;
     margin: auto;
@@ -108,15 +132,20 @@ div#regular-video {
     height: 240px;
 
     background-color: #483fff;
+
+    animation: opacity 2s linear 0.3s 1 normal forwards;
 }
 
 div#regular-video > iframe {
     display: block;
     margin: auto;
 
-    height: 240px
+    height: 240px;
+
+    animation: opacity 2s linear 0.3s 1 normal forwards;
 }
 
 section#sessao-textual {
     margin-top: 20px;
+    animation: opacity 8s linear 0.3s 1 normal forwards;
 }
